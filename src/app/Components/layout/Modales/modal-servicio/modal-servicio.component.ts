@@ -57,8 +57,8 @@ export class ModalServicioComponent implements OnInit {
     
     const _servicio: Servicio = {
       id: this.datosServicio == null ? 0 : this.datosServicio.id,
-      name: this.formularioServicio.value.nombreCompleto,
-      description: this.formularioServicio.value.descripcion,
+      name: this.formularioServicio.value.name,
+      description: this.formularioServicio.value.description,
     }
 
     if(this.datosServicio == null){
