@@ -1,0 +1,36 @@
+<h2 mat-dialog-title>{{tituloAccion}} Servicio</h2>
+
+<mat-dialog-content>
+  <form [formGroup]="formularioServicio">
+    <mat-grid-list cols="1" rowHeight="80px">
+      <!-- <mat-grid-tile>
+        <mat-form-field appearence="outline">
+          <mat-label>Id</mat-label>
+          <input matInput autocomplete="off" formControlName="id">
+          <mat-icon matSuffix>fingerprint</mat-icon>
+        </mat-form-field>
+      </mat-grid-tile> -->
+
+      <mat-grid-tile>
+        <mat-form-field appearence="outline">
+          <mat-label>Nombre Servicio</mat-label>
+          <input matInput autocomplete="off" formControlName="nombre">
+          <mat-icon matSuffix>account-box</mat-icon>
+        </mat-form-field>
+      </mat-grid-tile>
+
+      <mat-grid-tile>
+        <mat-form-field appearence="outline">
+          <mat-label>Descripcion</mat-label>
+          <input matInput autocomplete="off" formControlName="description">
+          <mat-icon matSuffix>text</mat-icon>
+        </mat-form-field>
+      </mat-grid-tile>
+    </mat-grid-list>
+  </form>
+</mat-dialog-content>
+
+<mat-dialog-actions align="end">
+  <button mat-raised-button mat-dialog-close color="warn">Volver</button>
+  <button mat-raised-button color="primary" [disabled]="formularioServicio.invalid" (click)="guardarEditar_Servicio()">{{botonAccion}}</button>
+</mat-dialog-actions>
