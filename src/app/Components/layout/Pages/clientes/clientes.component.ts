@@ -28,7 +28,7 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
   styleUrl: './clientes.component.css'
 })
 export class ClientesComponent implements OnInit, AfterViewInit {
-  columnasTabla: string[] = ['id', 'nombre', 'email'];
+  columnasTabla: string[] = ['id', 'nombre', 'email','editar','eliminar'];
   dataInicio: Cliente[] = [];
   dataListaClientes = new MatTableDataSource(this.dataInicio);
   @ViewChild(MatPaginator) paginacionTabla!: MatPaginator;

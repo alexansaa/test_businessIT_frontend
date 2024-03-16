@@ -32,7 +32,7 @@ export class ModalClienteComponent implements OnInit {
     private _utilidadService: UtilidadService
   ) {
     this.formularioCliente = this.fb.group({
-      id: ['',Validators.required],
+      // id: ['',Validators.required],
       nombreCompleto: ['', Validators.required],
       email: ['', Validators.required]
     })
@@ -53,10 +53,12 @@ export class ModalClienteComponent implements OnInit {
   }
 
   guardarEditar_Cliente(){
+    console.log(this.formularioCliente.value);
+    
     const _cliente: Cliente = {
       id: this.datosCliente == null ? 0 : this.datosCliente.id,
-      name: this.datosCliente.name,
-      email: this.datosCliente.email,
+      name: this.formularioCliente.value.nombreCompleto,
+      email: this.formularioCliente.value.email,
     }
 
     if(this.datosCliente == null){
