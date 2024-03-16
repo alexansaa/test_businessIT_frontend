@@ -32,7 +32,7 @@ import { MatAutocompleteModule } from '@angular/material/autocomplete';
 @NgModule({
   declarations: [],
   imports: [
-    CommonModule
+    CommonModule,
   ],
   exports: [
     ReactiveFormsModule,
@@ -58,7 +58,7 @@ import { MatAutocompleteModule } from '@angular/material/autocomplete';
     MatAutocompleteModule,
   ],
   providers: [
-
+    HttpClientModule
   ]
 })
 export class ShareModule { }

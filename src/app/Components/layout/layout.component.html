@@ -1,1 +1,32 @@
-<p>layout works!</p>
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <h1>Sistema Test</h1>
+    <button mat-icon-button (click)="sidenav.toggle();">
+      <mat-icon>menu</mat-icon>
+    </button>
+  </mat-toolbar-row>
+</mat-toolbar>
+
+<mat-sidenav-container>
+  <mat-sidenav #sidenav opened="true" mode="side" style="width:200px;">
+    <mat-nav-list>
+      <mat-list-item routerLink="/pages/dashboard">
+        <mat-icon mat-list-icon>dashboard</mat-icon>
+        <div mat-line>DashBorad</div>
+      </mat-list-item>
+      <mat-list-item routerLink="/pages/clientes">
+        <mat-icon mat-list-icon>group</mat-icon>
+        <div mat-line>Clientes</div>
+      </mat-list-item>
+      <mat-list-item routerLink="/pages/servicios">
+        <mat-icon mat-list-icon>collections_bookmark</mat-icon>
+        <div mat-line>Servicios</div>
+      </mat-list-item>
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <div style="height: 90vh;">
+      <router-outlet></router-outlet>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>
