@@ -1,27 +1,176 @@
-# AppSystemTest
+<a name="readme-top"></a>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.0.
+# 📗 Table of Contents
 
-## Development server
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+# 📖 [Client Service Registry App] <a name="about-project"></a>
 
-## Code scaffolding
+**[Client Service Registry App]**
+The Client Service Registry App keeps track of company clients working with your organization, as well as the different services your organization can offer to the world! This awesome application is used to keep track of information generated from other endpoints of your infrastructure to summarize and display the collected data on one fully managed dashboard.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+For the project implementation, it was required two separate repositories. This is the front-end repository. The back-end repository can be found here: https://github.com/alexansaa/test_businessIT_backend. Please, take a peek!
 
-## Build
+## 🛠 Built With <a name="built-with"></a>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Tech Stack <a name="tech-stack"></a>
 
-## Running unit tests
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
+     <li><a href="https://developer.mozilla.org/en-US/docs/Web/css">CSS</a></li>
+  </ul>
+</details>
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://learn.microsoft.com/es-es/dotnet/core/introduction">ASP.NET core</a></li>
+  </ul>
+</details>
 
-## Running end-to-end tests
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.w3schools.com/sql/sql_intro.asp">SQL</a></li>
+  </ul>
+</details>
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Key Features <a name="key-features"></a>
 
-## Further help
+- **[Models]**
+- **[Controllers]**
+- **[Views]**
+- **[Multi-Layer App]**
+- **[Separate Front-End and Back-End]**
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+To run this project you need to keep in mind that there are two parts:
+
+First, install Visual Studio, and also Visual Studio Code. The last will be useful for the Angular (Front-End) project, while the former will be useful for the .NET (Back-End) project
+
+<a href="https://visualstudio.microsoft.com/es/downloads/">Visual Studio</a>
+<a href="https://code.visualstudio.com/">Visual Studio Code</a>
+
+### Setup
+
+Clone this front-end repository to your desired folder:
+
+```sh
+  cd my-folder-frontend
+  git https://github.com/alexansaa/test_businessIT_frontend.git
+```
+
+Clone the back-end repository to your desired folder:
+
+```sh
+  cd my-folder-backend
+  git https://github.com/alexansaa/test_businessIT_backend.git
+```
+
+### Install
+
+Install this front-end project with:
+
+```sh
+  cd my-project-frontend
+  npm install
+```
+
+Installation for the back-end project may not be required. Open the project by double-clicking on the solution file (.sln)
+
+### Usage
+
+To run the project, execute the following command:
+
+```sh
+  ng serve
+```
+
+The back-end project requires you to compile and run depending on your local environment. This may be achieved by clicking the green "play" button at the top of the Visual Studio toolbar.
+
+
+### Deployment
+
+You can deploy this project using:
+
+<a href="https://vercel.com/">Vercel</a> as a CI/CD deployment framework and using GitHub projects main branch as a code source.
+ 
+For the back-end project you can use Azure, please take a peek at this <a href="https://www.youtube.com/watch?v=EKqXAMLsnKQ&t=642s">awsome</a> tutorial. Consider that you may have slightly different configurations depending on your subscription type.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Alexander**
+
+- [GitHub](https://github.com/alexansaa)
+- [LinkedIn](https://www.linkedin.com/in/alexander-saavedra-garcia/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **[More Models into the database architecture]**
+- [ ] **[Authentication with AWS Cognito]**
+- [ ] **[Dashboard expanded summary and management tools]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/alexansaa/test_businessIT_frontend/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project, please give it a star on GitHub
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I want to thank BusinessIt for allowing me to show off my skills!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE.md) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
