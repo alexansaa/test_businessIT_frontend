@@ -13,6 +13,7 @@
   - [Usage](#usage)
   - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
+  - [Live demo](#live-demo)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -121,6 +122,10 @@ You can deploy this project using:
 <a href="https://vercel.com/">Vercel</a> as a CI/CD deployment framework and using GitHub projects main branch as a code source.
  
 For the back-end project you can use Azure, please take a peek at this <a href="https://www.youtube.com/watch?v=EKqXAMLsnKQ&t=642s">awsome</a> tutorial. Consider that you may have slightly different configurations depending on your subscription type.
+
+### Live Demo
+
+Take a look at the live demo implementation at: https://test-business-it-frontend.vercel.app/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
