@@ -126,6 +126,7 @@ For the back-end project you can use Azure, please take a peek at this <a href="
 ### Live Demo
 
 Take a look at the live demo implementation at: https://test-business-it-frontend.vercel.app/
+Loading may take a few moments due to the free deployment instance. Please, be patient.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
